@@ -2,7 +2,7 @@ const routes = require("express").Router();
 
 const myController = require('../controllers')
 
-routes.get("/", myController.awesomeFunction);
-routes.get("/awesome", myController.returnAnotherPerson);
+routes.get("/", myController.showName);
+routes.get("/wife", myController.showAnotherName);
 
 module.exports = routes;

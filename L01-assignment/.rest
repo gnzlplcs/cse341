@@ -3,12 +3,12 @@ GET http://localhost:3000 HTTP/1.1
 
 ###
 # awesome route
-GET http://localhost:3000/awesome HTTP/1.1
+GET http://localhost:3000/wife HTTP/1.1
 
 ###
 GET https://cse341-uilz.onrender.com HTTP/1.1
 # it works!
 
 ###
-GET https://cse341-uilz.onrender.com/awesome HTTP/1.1
+GET https://cse341-uilz.onrender.com/wife HTTP/1.1
 # it works as well!
